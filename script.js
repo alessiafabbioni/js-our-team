@@ -51,4 +51,9 @@ for (let i = 0; i < team.length; i++){
     </li>
     `;
 
+
+
+
+/* Stampa su DOM */
+document.getElementById('list-item').innerHTML += (listItem);
 }
