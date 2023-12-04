@@ -39,3 +39,16 @@ const team =
     },
 ];
 
+/* Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto */
+for (let i = 0; i < team.length; i++){
+    const teams = team[i];
+    console.log(teams);
+    const listItem = `
+    <li>
+        <h4>${teams.name}</h4>
+        <p>${teams.role}</p>
+        <img src="img/${teams.photo}" />
+    </li>
+    `;
+
+}
